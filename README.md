@@ -1,82 +1,88 @@
-Eco Tracker
+# Eco Tracker
 
 Eco Tracker is a mobile application designed to help users adopt eco-friendly habits and track their environmental impact. This app provides users with tips, challenges, and resources to live a more sustainable lifestyle while making a positive contribution to the planet.
-Table of Contents
 
-    Features
-    Technologies Used
-    Installation
-    Usage
-    Contributing
-    License
+## Table of Contents
 
-Features
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-    Habit Tracking: Users can track their daily eco-friendly habits, such as recycling, reducing plastic use, and conserving water.
-    Eco Challenges: Engage users with fun and actionable eco challenges that encourage sustainable practices.
-    Tips and Resources: Access a curated list of eco-friendly tips and resources to help users make informed decisions.
-    Community Engagement: Connect with other users to share achievements and encourage one another.
-    Personal Dashboard: Visualize progress with a personal dashboard that highlights the user's impact on the environment.
+## Features
 
-Technologies Used
+- **Habit Tracking**: Users can track their daily eco-friendly habits, such as recycling, reducing plastic use, and conserving water.
+- **Eco Challenges**: Engage users with fun and actionable eco challenges that encourage sustainable practices.
+- **Tips and Resources**: Access a curated list of eco-friendly tips and resources to help users make informed decisions.
+- **Community Engagement**: Connect with other users to share achievements and encourage one another.
+- **Personal Dashboard**: Visualize progress with a personal dashboard that highlights the user's impact on the environment.
 
-    Framework: React Native
-    Backend: Firebase (for user authentication and data storage)
-    State Management: Redux
-    Styling: Styled Components
-    Map Integration: React Native Maps (for local eco-friendly spots)
-    APIs: Various environmental data APIs for tips and resources
+## Technologies Used
 
-Installation
+- **Framework**: React Native
+- **Backend**: Firebase (for user authentication and data storage)
+- **State Management**: Redux
+- **Styling**: Styled Components
+- **Map Integration**: React Native Maps (for local eco-friendly spots)
+- **APIs**: Various environmental data APIs for tips and resources
+
+## Installation
 
 To install the Eco Tracker app, follow these steps:
 
-    Clone the repository:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/eco-tracker.git
+   cd eco-tracker
+   ```
 
-    git clone https://github.com/yourusername/eco-tracker.git
-    cd eco-tracker
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-Install the dependencies:
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-npm install
+4. For Android:
+   - Run the app:
+     ```bash
+     npm run android
+     ```
 
-Start the development server:
+5. For iOS:
+   - Run the app:
+     ```bash
+     npm run ios
+     ```
 
-npm start
-
-For Android:
-
-    Run the app:
-
-    npm run android
-
-For iOS:
-
-    Run the app:
-
-    npm run ios
-
-Usage
+## Usage
 
 Once the app is installed and running, users can create an account or log in. The main interface will guide users through tracking their eco habits, participating in challenges, and accessing tips and resources.
-Contributing
 
-Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request.
+## Contributing
 
-    Fork the repository
-    Create a feature branch
+Contributions are welcome! If you have suggestions or improvements, please create an issue or submit a pull request. 
 
-    git checkout -b feature/YourFeature
+1. Fork the repository
+2. Create a feature branch
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a pull request
 
-Commit your changes
+## License
 
-git commit -m 'Add some feature'
-
-Push to the branch
-
-git push origin feature/YourFeature
-
-    Open a pull request
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
